@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papaya Restaurant - Menu</title>
+    <link rel="icon" type="image/png" href="/img/food_2.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <!-- Header with sticky navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">🍽️ Papaya</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#starters">Starters</a></li>
+                <li><a href="#mains">Main Courses</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero section -->
+            <section class="hero">
+                <h1>Our Exquisite Menu</h1>
+                <p>Discover our carefully crafted dishes made with the finest ingredients and traditional recipes passed down through generations.</p>
+            </section>
+
+            <!-- Starters section -->
+            <section id="starters" class="menu-section">
+                <h2 class="section-title">Starters</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Truffle Arancini</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p class="menu-item-description">Crispy risotto balls filled with wild mushrooms and truffle oil, served with garlic aioli</p>
+                        <div class="dietary-info">
+                            <span class="dietary-tag">Vegetarian</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Seared Scallops</h3>
+                            <span class="menu-item-price">$18</span>
+                        </div>
+                        <p class="menu-item-description">Pan-seared scallops with cauliflower purée and pancetta crisps</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Burrata Caprese</h3>
+                            <span class="menu-item-price">$16</span>
+                        </div>
+                        <p class="menu-item-description">Fresh burrata cheese with heirloom tomatoes, basil oil, and aged balsamic</p>
+                        <div class="dietary-info">
+                            <span class="dietary-tag">Vegetarian</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Spicy Tuna Tartare</h3>
+                            <span class="menu-item-price">$19</span>
+                        </div>
+                        <p class="menu-item-description">Fresh tuna with avocado, sesame, and spicy mayo on crispy wonton chips</p>
+                        <div class="dietary-info">
+                            <span class="dietary-tag spicy">Spicy</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main Courses section -->
+            <section id="mains" class="menu-section">
+                <h2 class="section-title">Main Courses</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Wagyu Beef Tenderloin</h3>
+                            <span class="menu-item-price">$48</span>
+                        </div>
+                        <p class="menu-item-description">8oz wagyu tenderloin with roasted vegetables, potato gratin, and red wine jus</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Pan-Seared Salmon</h3>
+                            <span class="menu-item-price">$32</span>
+                        </div>
+                        <p class="menu-item-description">Atlantic salmon with quinoa pilaf, roasted asparagus, and lemon herb butter</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Lobster Risotto</h3>
+                            <span class="menu-item-price">$38</span>
+                        </div>
+                        <p class="menu-item-description">Creamy arborio rice with fresh lobster, peas, and parmesan cheese</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Vegan Buddha Bowl</h3>
+                            <span class="menu-item-price">$24</span>
+                        </div>
+                        <p class="menu-item-description">Quinoa, roasted vegetables, avocado, chickpeas, and tahini dressing</p>
+                        <div class="dietary-info">
+                            <span class="dietary-tag vegan">Vegan</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Duck Confit</h3>
+                            <span class="menu-item-price">$36</span>
+                        </div>
+                        <p class="menu-item-description">Slow-cooked duck leg with cherry gastrique, wild rice, and seasonal greens</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Pasta Carbonara</h3>
+                            <span class="menu-item-price">$26</span>
+                        </div>
+                        <p class="menu-item-description">House-made fettuccine with pancetta, egg yolk, parmesan, and black pepper</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Drinks section -->
+            <section id="drinks" class="menu-section">
+                <h2 class="section-title">Drinks</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Signature Cocktails</h3>
+                            <span class="menu-item-price">$12-16</span>
+                        </div>
+                        <p class="menu-item-description">Bella Vista Martini, Smoky Old Fashioned, Lavender Gin Fizz</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Wine Selection</h3>
+                            <span class="menu-item-price">$8-18</span>
+                        </div>
+                        <p class="menu-item-description">Curated selection of local and international wines by the glass</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Craft Beer</h3>
+                            <span class="menu-item-price">$6-9</span>
+                        </div>
+                        <p class="menu-item-description">Local brewery selections including IPA, Lager, and seasonal specials</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Fresh Juices</h3>
+                            <span class="menu-item-price">$5-7</span>
+                        </div>
+                        <p class="menu-item-description">Orange, apple, cranberry, and seasonal fruit combinations</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Desserts section -->
+            <section id="desserts" class="menu-section">
+                <h2 class="section-title">Desserts</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Chocolate Lava Cake</h3>
+                            <span class="menu-item-price">$12</span>
+                        </div>
+                        <p class="menu-item-description">Warm chocolate cake with molten center, vanilla ice cream, and berry coulis</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Tiramisu</h3>
+                            <span class="menu-item-price">$10</span>
+                        </div>
+                        <p class="menu-item-description">Classic Italian dessert with espresso-soaked ladyfingers and mascarpone</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Crème Brûlée</h3>
+                            <span class="menu-item-price">$11</span>
+                        </div>
+                        <p class="menu-item-description">Vanilla custard with caramelized sugar crust and fresh berries</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Seasonal Fruit Tart</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p class="menu-item-description">Buttery pastry shell with pastry cream and fresh seasonal fruits</p>
+                        <div class="dietary-info">
+                            <span class="dietary-tag">Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>📍 Precious Palm Royal Hotel | Gazebo</p>
+                <p> <a href="mailto:kitchen@preciouspalmroyalhotel.com"> ✉️ kitchen@preciouspalmroyalhotel.com</a>
+                </p>
+                <p>🕒 Mon-Sun: 24/7</p>
+            </div>
+         
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Papaya Restaurant. All rights reserved. | Crafted with ❤️ for food lovers</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
