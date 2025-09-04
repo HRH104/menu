@@ -201,32 +201,6 @@
             line-height: 1.5;
         }
 
-        /* Special dietary indicators */
-        .dietary-info {
-            margin-top: 0.5rem;
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .dietary-tag {
-            background: #e8f5e8;
-            color: #2d5a2d;
-            padding: 0.2rem 0.5rem;
-            border-radius: 12px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-
-        .dietary-tag.vegan {
-            background: #e8f5e8;
-            color: #2d5a2d;
-        }
-
-        .dietary-tag.spicy {
-            background: #ffe8e8;
-            color: #8b0000;
-        }
-
         /* Footer */
         .footer {
             background: #2c3e50;
@@ -259,23 +233,6 @@
 
         .footer-section a:hover {
             color: #d4af37;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .social-links a {
-            background: #34495e;
-            padding: 0.8rem;
-            border-radius: 50%;
-            transition: background 0.3s ease;
-        }
-
-        .social-links a:hover {
-            background: #d4af37;
         }
 
         .footer-bottom {
